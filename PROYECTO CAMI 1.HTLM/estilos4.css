@@ -1,0 +1,118 @@
+body {
+    font-family: cursive;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://wallpaperaccess.com/full/1973448.jpg);
+    backdrop-filter: opacity(20%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+#yo {
+margin-left: 35%;
+margin-right: 35%;
+width: 30%;
+}
+
+header {
+    background: rgb(130, 196, 212);
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#about {
+
+padding: 20px;
+background-image: url(https://wallpaperaccess.com/full/1973448.jpg);
+backdrop-filter: saturate(20%);
+}
+
+#about h2 {
+    margin-top: 0;
+    color: rgb(20, 20, 20);
+}
+
+p{
+    color: #f8f7f7;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.project {
+    width: 300px;
+    padding: 10 px;
+    background: rgb(0, 0, 0);
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.project img {
+    min-width: 100%;
+    height: auto;
+}
+
+#contact {
+    padding: 20px;
+}
+
+form { display: flex;
+    flex-direction: column;
+}
+
+form label{
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+form input [type= "submit"]{
+    background: black;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+} 
+
+@media(max-width:600px){
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
